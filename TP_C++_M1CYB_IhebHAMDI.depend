@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1710338084 source:d:\projects\tp_c++_m1cyb_ihebhamdi\services.cpp
+	"Services.h"
+	<algorithm>
+	<climits>
+
+1710337957 d:\projects\tp_c++_m1cyb_ihebhamdi\services.h
+	"City.h"
+	<vector>
+
+1710339168 d:\projects\tp_c++_m1cyb_ihebhamdi\city.h
+	<vector>
+	<string>
+
+1710339147 source:d:\projects\tp_c++_m1cyb_ihebhamdi\city.cpp
+	"City.h"
+
+1710338091 source:d:\projects\tp_c++_m1cyb_ihebhamdi\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<sstream>
+	<algorithm>
+	"City.h"
+	"Services.h"
+
