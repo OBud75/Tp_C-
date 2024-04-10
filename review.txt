@@ -1,0 +1,33 @@
+Le code devient assez difficile à lire avec autant de commentaires.
+Prennez l'habitude d'utiliser les méthodes des objets quand disponibles,
+cities.get(i) plutit que cities[i]
+
+Dans la fonction main, à la ligne 59, pourquoi utiliser static_cast<int> pour comparer choice et cities.size() ? Pourquoi pas ailleurs ?
+Assurez vous de bien comprendre le code que vous réutilisez.
+
+Le code est bien séparé en fonctions qui ont des noms assez déscriptifs.
+Une fois fait abstraction des commentaires la logique est assez simple à suivre malgré un sujet pas forcément facile.
+Vous pouvez rendre la logique plus simple à suivre en évitant de "nester" sur trop de niveaux.
+Au lieu de faire 
+if (a) {
+    if (b) {
+        if (c) {
+            return "hello"
+        }
+    }
+}
+
+on peut souvent faire
+if (not a) {
+
+}
+if (not b) {
+
+}
+if (not c) {
+
+}
+return "hello"
+
+
+15/20

@@ -4,15 +4,15 @@
 #include <vector>
 #include <string>
 
-// Structure représentant une ville avec son nom et les distances aux autres villes
+// Structure reprï¿½sentant une ville avec son nom et les distances aux autres villes
 struct City {
     char name; // Nom de la ville
     std::vector<int> distances; // Distances de la ville aux autres villes
 
-    // Constructeur par défaut
+    // Constructeur par dï¿½faut Ne pensez vous pas que "City() = default;" est dÃ©jÃ  assez explicite dans le fait que City est le constructeur par dÃ©faut?
     City() = default;
 
-    // Constructeur de la ville prenant le nom et les distances en paramètres
+    // Constructeur de la ville prenant le nom et les distances en paramï¿½tres
     City(char name, const std::vector<int>& distances);
 };
 
